@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Productos de Limpieza | Limpio Hogar</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: #0c8; color: white; padding: 20px; text-align: center; }
+    section { padding: 20px; }
+    .producto { border: 1px solid #ddd; padding: 15px; margin: 10px 0; border-radius: 8px; }
+    .producto h3 { margin-top: 0; }
+    .whatsapp { position: fixed; bottom: 20px; right: 20px; background: #25D366; color: white; padding: 15px; border-radius: 50%; text-decoration: none; font-size: 24px; }
+    form { background: #f9f9f9; padding: 20px; border-radius: 10px; }
+    input, textarea { width: 100%; padding: 10px; margin: 5px 0; border: 1px solid #ccc; border-radius: 5px; }
+    button { background: #0c8; color: white; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Limpio Hogar</h1>
+  <p>Productos de limpieza para tu casa y negocio</p>
+</header>
+
+<section>
+  <h2>Nuestros productos</h2>
+
+  <div class="producto">
+    <h3>Cloro Multiusos 1L</h3>
+    <p>Ideal para desinfección general. Precio: $25 MXN</p>
+  </div>
+
+  <div class="producto">
+    <h3>Detergente líquido 5L</h3>
+    <p>Perfecto para ropa y superficies. Precio: $95 MXN</p>
+  </div>
+
+  <div class="producto">
+    <h3>Desengrasante industrial</h3>
+    <p>Elimina grasa difícil en cocinas. Precio: $120 MXN</p>
+  </div>
+</section>
+
+<section>
+  <h2>Contacto</h2>
+  <form action="enviar.php" method="POST">
+    <input type="text" name="nombre" placeholder="Tu nombre" required>
+    <input type="email" name="correo" placeholder="Tu correo" required>
+    <textarea name="mensaje" placeholder="¿En qué podemos ayudarte?" required></textarea>
+    <button type="submit">Enviar mensaje</button>
+  </form>
+</section>
+
+<a class="whatsapp" href="https://wa.me/5219991234567?text=Hola,%20quiero%20información%20sobre%20productos%20de%20limpieza" target="_blank" title="Escríbenos por WhatsApp">
+  💬
+</a>
+
+</body>
+</html>
